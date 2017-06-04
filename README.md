@@ -1,7 +1,7 @@
 ### A simple url shortening tool to remove reference from a redirected url
 
 ### Context:
-I subscribed to a lot of email newsletters, and if you also do, you probably notice that the url included in the newsletters often involves reference information.
+I subscribed to a lot of email newsletters, and if you also do, you probably notice that the url included in the newsletters often involves source information of which Newsletter the url comes from.
 ### Example:
 `https://eater.net/?utm_source=DailyDrip+Homepage+Newsletter&utm_campaign=5a77874d7b-EMAIL_CAMPAIGN_2017_05_06&utm_medium=email&utm_term=0_1e4a41c1c6-5a77874d7b-162314749`
 
