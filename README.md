@@ -1,4 +1,4 @@
-### A simple url shortening tool to remove reference from a redirected url
+### A simple url shortening tool to remove utm source from a redirected url
 
 ### Context:
 I subscribed to a lot of email newsletters, and if you also do, you probably notice that the url included in the newsletters often involves source information of which Newsletter the url comes from.
