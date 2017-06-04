@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Remove reference resource from URL",
+  "description": "This extension shortens a URL to its page origin by removing reference information",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
