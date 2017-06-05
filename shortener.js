@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function(){
   getCurrentTabUrl(function(url) {
     renderStatus('Shortening url ' + url);
 
-    if(url.indexOf("?utm") >= 0 || url.indexOf("?ref=") >= 0) {
-      var shortUrl = url.substring(0, url.indexOf("?utm")) || url.substring(0, url.indexOf("?ref="));
+    if(url.indexOf("?utm") >= 0 || url.indexOf("?ref") >= 0 || url.indexOf("?imm") >= 0) {
+      var shortUrl = url.substring(0, url.indexOf("?utm")) || url.substring(0, url.indexOf("?ref")) || url.substring(0, url.indexOf("?imm"));
       renderStatus('Redirecting...');
       chrome.tabs.update({ url: shortUrl });
     }

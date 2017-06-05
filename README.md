@@ -20,3 +20,6 @@ The rationale behind shortening the url is purely for Pocket to more easily reco
 * load the repo directory as "unpacked extension", learn [How?](https://developer.chrome.com/extensions/getstarted#unpacked)
 * on an article page, click on the extension icon
 * enjoy the clean url!
+
+### Improvements needed:
+* a better way to recognize source pattern instead of hardcoding (unfortunately not very consistent patterns found as of now)
